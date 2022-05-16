@@ -1,0 +1,1 @@
+myTable = {} myTable["exp"] = 1100 myTable["gold"] = 999 myTable["swordID"] = 1000398
