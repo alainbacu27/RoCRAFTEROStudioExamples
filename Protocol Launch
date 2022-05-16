@@ -1,0 +1,21 @@
+
+<html lang="en"><head>
+    
+    <link rel="icon" type="image/png" href="/images/favicon/favicon.ico">
+  <title>Studio Protocol Launch</title>
+
+    <meta property="og:site_name" content="Studio Protocol Launch | Help Articles">
+  
+  
+    <meta property="og:description" content="Launch Studio With Browser">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+
+
+<body><h2> This tutorial is simple, follow the steps:
+</h2>
+<li>Create a registry key in HKEY_CLASSES_ROOT</li><li>Name It "rocraftero-studio" (without "")
+</li><li>Create a string value, named (Predetermined) - and value:"URL: RoCRAFTERO Protocol" - WITHOUT THE ""</li><li>Create String key in the same key, with the name "URL Protocol"</li><li>CREATE a key named shell</li><li>UNDER "shell" (without "") create a key named "open"</li><li>UNDER "open" (without "") create a key named "command"</li><li>Create a String Value  with name - (Default) value, your RoCRAFTERO Studio Location and executable: 
+
+"C:\Users\USERNAME\Downloads\2017L Studio\RobloxApp.exe" %1 - (or other folder)</li><p></p></body></html>
